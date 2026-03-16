@@ -10,7 +10,7 @@ int main()
     char var2 ='c';
     printf("char : %c\n", var2);
 
-    char* var3 = "hello world!"
+    char* var3 = "hello world!";
     printf("string : %s\n", var3);
 
     float var4 = 3.141592;
