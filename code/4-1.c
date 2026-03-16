@@ -2,15 +2,24 @@
 
 int main()
 {
+    int num1, num2;
+    char op;
 
-    int a = 32;
-    int b = 156;
+    if(scamf("%d %d %c",&num1, &num2, &op) != 3){
+        return 0;
+    }
 
-    a = a ^ b;
-    b = a ^ b;
-    a = a ^ b;
-
-    printf("%d %d\n", a, b);
+    if(op == '+'){
+        printf("%d\n", num1 + num2);
+    }else if(op == '-'){
+        printf("%d\n", num1 - num2);
+     }else if(op == '*'){
+        printf("%d\n", num1 * num2);
+    }else if(op == '/'){
+        if(num2 != 0){
+            printf("%d\n", num1 / num2);
+        }
+    }
     return 0;
 }
 
