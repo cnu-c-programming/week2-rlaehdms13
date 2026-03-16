@@ -14,8 +14,8 @@ int main()
     printf("string : %s\n", var3);
 
     float var4 = 3.141592;
-    printf("float : %.6f\n", var4);
-    printf("exp : %.6e\n", var4);
+    printf("float : %f\n", var4);
+    printf("exp : %e\n", var4);
     
     return 0;
 }
