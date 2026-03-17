@@ -5,7 +5,7 @@ int main()
     int a,b,c;
 
     a = b = c = 5;
-    pritnf("%d %d %d\n", a, b, c);
+    printf("%d %d %d\n", a, b, c);
 
     a = 2 + 3 * 4;
     printf("%d %d %d\n", a, b, c);
